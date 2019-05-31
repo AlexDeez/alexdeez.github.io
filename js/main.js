@@ -139,10 +139,20 @@ $('.main-slider').ready(function(){
     $('.main-slider').slick({
         arrows: false,
         dots: true,
-        autoplay: true,
-        autoplaySpeed: 6000
+        // autoplay: true,
+        // autoplaySpeed: 6000
     });
 });
+
+// CARD GALLERY
+if($('.card-gallery').length > 0){
+    // $('.card-gallery .card__img').slick();
+    $('.card-gallery .card__img').slickLightbox({
+        src: 'src',
+        itemSelector: '.card-gallery__item img',
+        arrows: false,
+    });
+}
 
 
 
