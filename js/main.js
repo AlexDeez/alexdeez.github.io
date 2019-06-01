@@ -145,12 +145,10 @@ $('.main-slider').ready(function(){
 });
 
 // CARD GALLERY
-if($('.card-gallery').length > 0){
-    // $('.card-gallery .card__img').slick();
-    $('.card-gallery .card__img').slickLightbox({
+if($('.cards-gallery').length > 0){
+    $('.cards-gallery').slickLightbox({
         src: 'src',
-        itemSelector: '.card-gallery__item img',
-        arrows: false,
+        itemSelector: '.card .card__img img',
     });
 }
 
