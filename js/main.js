@@ -149,6 +149,7 @@ if($('.cards-gallery').length > 0){
     $('.cards-gallery').slickLightbox({
         src: 'src',
         itemSelector: '.card .card__img img',
+        caption: 'caption'
     });
 }
 

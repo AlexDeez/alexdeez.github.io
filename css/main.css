@@ -690,7 +690,7 @@ ul {
 .slick-lightbox .slick-next,
 .slick-lightbox .slick-prev {
   position: absolute;
-  top: 50%;
+  top: 48%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -719,6 +719,17 @@ ul {
   -webkit-transform: translateY(-50%) rotate(180deg);
   -ms-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
+}
+
+.slick-lightbox-slick-caption {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.slick-lightbox-slick-caption span {
+  display: block;
+  font-size: 18px;
 }
 
 .button-contact-me {
@@ -3157,6 +3168,10 @@ section.contacts .contacts-form .button-blue {
 
   .slick-lightbox .slick-next {
     right: 10px;
+  }
+
+  .slick-lightbox-slick-item-inner {
+    max-width: 75%;
   }
 
   .button-contact-me {
